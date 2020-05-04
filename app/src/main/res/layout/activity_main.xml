@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpic"
+    android:pointerIcon="crosshair"
+
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="PotterHead Quiz!"
+
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:fontFamily="@font/hp"
+        android:id="@+id/header"
+        />
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="340dp"
+
+        android:fontFamily="@font/hp"
+        android:height="80dp"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/ic_account_box_black_24dp"
+        android:drawableBottom="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:paddingLeft="4dp"
+        android:hint=" NAME  "
+        android:textColorHint="@android:color/white"
+        android:textSize="50dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="40dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="#FF5349"
+            android:textColor="@android:color/background_dark"
+            android:fontFamily="@font/hp"
+            android:layout_weight="1"
+            android:text="WELCOME TO POTTERHEAD !" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

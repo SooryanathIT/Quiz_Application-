@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.unit_one">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/title"
+        android:label="PotterHead"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name=".results"></activity>
+        <activity
+            android:name=".questionj"
+            android:noHistory="true" />
+        <activity
+            android:name=".questioni"
+            android:noHistory="true" />
+        <activity
+            android:name=".questionh"
+            android:noHistory="true" />
+        <activity
+            android:name=".questiong"
+            android:noHistory="true" />
+        <activity
+            android:name=".questionf"
+            android:noHistory="true" />
+        <activity
+            android:name=".questione"
+            android:noHistory="true" />
+        <activity
+            android:name=".questiond"
+            android:noHistory="true" />
+        <activity
+            android:name=".questionc"
+            android:noHistory="true" />
+        <activity
+            android:name=".questionb"
+            android:noHistory="true" />
+        <activity
+            android:name=".Query"
+            android:noHistory="true" />
+        <activity
+            android:name=".Buffer_one"
+            android:noHistory="true" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
